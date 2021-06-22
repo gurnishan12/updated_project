@@ -1,0 +1,260 @@
+{% load static %}
+{% static "images" as baseUrl %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>GNDPC</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="GNDPC">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet" type="text/css"/>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet"> 
+
+<script type="text/javascript" src="style.js"></script>
+
+</head>
+<style type="text/css">
+	
+
+					@media screen and (max-width: 600px) {
+		  .navbar-brand{
+			 font-size:7vw !important;
+			 margin-top: 5px;
+			
+		  }
+		}
+
+		body{
+			background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(static/images/aaronn.jpg);
+/*			background-image:url(priscillad.jpg);*/
+			background-size: cover;
+			height: 100vh;
+			font-family: 'Indie Flower', cursive;
+		}
+
+
+.contact-form{
+		background: #DADED4;
+		margin-top: 8%;
+		margin-bottom: 5%;
+		width: 65%;
+		border-radius: 70px;
+		border: 2px solid #4D774E;
+	}
+	.contact-form .form-control{
+		border-radius:1rem;
+	}
+	.contact-image{
+		text-align: center;
+	}
+	.contact-image img{
+		border-radius: 6rem;
+		width: 11%;
+		margin-top: -3%;
+		transform: rotate(29deg);
+	}
+	.contact-form form{
+		padding: 10%;
+	}
+	.contact-form form .row{
+		margin-bottom: -7%;
+	}
+	.contact-form h3{
+		margin-bottom: 8%;
+		margin-top: -10%;
+		text-align: center;
+		color: #4D774E;
+        font-weight: bold;
+	}
+	.contact-form .btnContact {
+		width: 60%;
+		border: none;
+		border-radius: 1rem;
+		padding: 5.5%;
+		background: #4D774E;
+		font-weight: 600;
+		color: #fff;
+		cursor: pointer;
+	}
+	.contact-form .btnContact:hover {
+	background: #4D774E;
+border: 2px solid white;
+	}
+	.btnContactSubmit
+	{
+		width: 50%;
+		border-radius: 1rem;
+		padding: 1.5%;
+		color: #fff;
+		background-color: #0062cc;
+		border: none;
+		cursor: pointer;
+	}
+
+  @media screen and (max-width: 600px) {
+		.contact-form{
+			width: 90%;
+			height: auto;
+			border-radius: 40px;
+			margin-top: 50px;
+	}
+  }
+  @media screen and (max-width: 600px) {
+  .contact-image img{
+      width: 80px;
+  }
+}
+
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px)  {
+	.contact-form{
+		margin-top: 140px;
+		height: 50vh;
+		width: 85%;
+	  }
+	}
+	@media only screen 
+	and (min-device-width: 768px) 
+	and (max-device-width: 1024px)  {
+		.contact-image img{
+			width: 90px;
+		}
+	  }
+	  @media only screen 
+	  and (min-device-width: 768px) 
+	  and (max-device-width: 1024px)  {
+		.contact-form form{
+			padding: 5%;
+			margin-top: 80px;
+		  }
+		}
+		@media screen and (max-width: 600px) {
+		  .contact-form form{
+			padding: 5%;
+			margin-top: 15px;
+			}
+		  }
+
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px)  {
+	.contact-form .form-control{
+		height: 55px;
+	}
+}
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px)  {
+	.contact-form{
+		margin-top: 140px;
+		height: 50vh;
+
+	  }
+}
+		
+</style>
+<body>
+
+	<!--  -->
+<nav class="navbar navbar-expand-lg navbar-dark" >
+
+		<!--  Show this only on mobile to medium screens  -->
+		  <a class="navbar-brand d-lg-none" href="#">G N D P C</a>
+		
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		
+		<!--  Use flexbox utility classes to change how the child elements are justified  -->
+		  <div class="collapse navbar-collapse justify-content-between" id="navbarToggle" style="background-color: #1e1f1169;">
+		
+			<ul id="kp" class="navbar-nav" style="font-size: 1.5vw;margin-right: 30px;font-weight:bold;color:white !important;">
+			  <li class="nav-item h4">
+				<a class="nav-link text-white " href="index.html">Home </a>
+			  </li>
+			  <li class="nav-item h4">
+				<a class="nav-link text-white" href="notes.html">Notes</a>
+			  </li>
+			  
+			  <li class="nav-item h4">
+				<a class="nav-link text-white" href="complain.html">Complian</a>
+			  </li>
+			</ul>
+			
+			
+		<!--   Show this only lg screens and up   -->
+			<a class="navbar-brand d-none d-lg-block" href="#" style="margin-right: -4rem !important; font-size:3.5vw;">G N D P C</a>
+			
+			
+			
+			<ul class="navbar-nav" style="font-size: 1.5vw;margin-right: 30px;font-weight:bold;">
+			  <li class="nav-item h4">
+				<a class="nav-link text-white" href="track.html">Track Complian</a>
+			  </li>
+			  <li class="nav-item h4">
+				<a class="nav-link text-white" href="{% url 'admin' %}">Admin</a>
+			  </li>
+			  <li class="nav-item h4">
+				<a class="nav-link text-white" href="teach.html">Teacher</a>
+			  </li>
+			  <!-- <li class="nav-item">
+				<a class="nav-link" href="#">Link</a>
+			  </li> -->
+			</ul>
+		  </div>
+		</nav>
+		<!--  -->
+
+
+
+		<div class="container contact-form">
+			<div class="contact-image">
+				<img src="{% static 'images/ab.png' %}" alt="img"/ style="background-color: #4D774E;">
+			</div>
+			<form class="fm" action = "loginc_verify" method = "POST" enctype="multipart/form-data">
+					{% csrf_token %}
+					
+				<h3>Teachers Section</h3>
+			   <div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<input type="text" name="_id" class="form-control" placeholder="Your Id *" value="{{name}}" />
+						</div>
+						<div class="form-group">
+							<input type="password" name="password" class="form-control" placeholder="Your Password *" value="" />
+						</div>
+					</div>
+					<div class="col-md-6">
+		
+						<div class="form-group">
+							<input type="submit" name="submit" class="btnContact" value="Submit" />
+							{{error}}
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

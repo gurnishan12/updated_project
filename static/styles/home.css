@@ -1,0 +1,85 @@
+::-moz-selection { background: rgb(0, 68, 255); }
+::selection { background: rgba(0, 204, 255, 0.432); }
+
+#myVideo {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .bg-dark {
+    background-color: transparent;
+  }
+  .center{
+    text-align: center;
+position: relative;
+font-size: 3vw;
+color: white;
+margin-top: 165px;
+  }
+  .center h2{
+    font-size: 2vw;;
+  }
+
+.arow{
+  position: relative;
+}
+
+.navbar-nav{
+  color: rgb(255, 255, 255) !important;
+  }
+
+  h5{
+    cursor: pointer;
+  }
+  #container {
+    width: 1000px;
+    height: 1000px;
+    border: 1px solid blue;
+  }
+  @media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px)  {
+		.center {
+			margin-top: 400px;
+		  font-size: 10vw !important;
+		  line-height: 45px !important; 
+		  
+		}
+	  }
+	  @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)  {
+		.center {
+		  font-size: 5vw;
+		  margin-top: 320px;
+		}
+	  }
+
+
+	  <!--  -->
+	  @media screen and (max-width: 600px) {
+		.center h2{
+			font-size: 5vw;
+			line-height: 40px;
+			font-weight: bold;
+		}
+	  }
+	  @media screen 
+	  and (device-width: 360px) 
+	  and (device-height: 640px)  {
+		.navbar-collapse{
+            font-size: 4.5vw !important;
+	  }
+	}
+
+	@media only screen 
+	and (min-device-width: 768px) 
+	and (max-device-width: 1024px)  {
+		  .kp{
+			
+			margin-top: 240px;
+		  }
+		}

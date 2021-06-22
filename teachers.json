@@ -1,0 +1,18 @@
+[
+  {
+    "model": "calc.teachers",
+    "pk": 1,
+    "fields": {
+      "name": "John",
+      "department_semsternumber": "Lennon"
+    }
+  },
+  {
+    "model": "calc.teachers",
+    "pk": 2,
+    "fields": {
+      "name": "Paul",
+      "department_semsternumber": "McCartney"
+    }
+  }
+]

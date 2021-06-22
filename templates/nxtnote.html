@@ -1,0 +1,198 @@
+{% load static %}
+{% static "images" as baseUrl %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>GNDPC</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="GNDPC">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet" type="text/css"/>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet"> 
+<script type="text/javascript" src="style.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<style type="text/css">
+    body{
+      background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(static/images/aaronn.jpg);
+/*      background-image:url(priscillad.jpg);*/
+      background-size: cover;
+      height: 100vh;
+      font-family: 'Indie Flower', cursive;
+    }
+              @media screen and (max-width: 600px) {
+      .navbar-brand{
+       font-size:7vw !important;
+       margin-top: 5px;
+      
+      }
+    }
+
+      @media screen and (max-width: 600px) {
+      .kk ul{
+       margin-left: 22px !important;
+      
+      }
+    }
+   @media screen and (max-width: 600px) {
+      .p {
+       font-size:10vw !important; 
+      
+      }
+    }
+
+  .p{
+position: relative;
+font-size: 3vw;
+color: #212529;
+text-align: center;
+margin-top: 70px;
+background-color: #ffffffab;
+border-radius: 10px;
+font-weight: 700;
+  }
+  /*kk*/
+.kk ul{
+margin-left: 55px;
+width: 90vw;
+background-color: #ffffffab;
+color: #212529;
+font-weight: 700;
+}
+.w3-ul li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #000;
+  }
+.w3-white,.w3-hover-white:hover {
+    color: #000 !important;
+    background-color:transparent !important;
+    border-radius: 25px;
+}
+.p img{
+  float: right;
+position: relative;
+right: 35px;
+border: 2px solid;
+text-decoration: none;
+border-radius: 20px;
+padding: 6px;
+cursor: pointer;
+width: 48px;
+margin-top: 6px;
+}
+.p a{
+  text-decoration: none;
+}
+#tooltipp {
+  position: relative;
+  border-bottom: 1px dotted black;
+  float: right;
+}
+
+#tooltipp .tooltiptext{
+    visibility: hidden;
+width: 148px;
+background-color: black;
+color: #fff;
+text-align: center;
+border-radius: 6px;
+padding: 5px 0;
+position: absolute;
+z-index: 1;
+top: -14px;
+right: 190%;
+margin-top: 20px;
+font-size: 1.8vw;
+}
+
+#tooltipp:hover .tooltiptext{
+  visibility: visible;
+}
+.w3-ul li:last-child{
+  margin-bottom: 25px;
+}
+</style>
+<body>
+
+  <!--  -->
+<nav class="navbar navbar-expand-lg navbar-dark" >
+
+    <!--  Show this only on mobile to medium screens  -->
+      <a class="navbar-brand d-lg-none" href="#">G N D P C</a>
+    
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+    
+    <!--  Use flexbox utility classes to change how the child elements are justified  -->
+      <div class="collapse navbar-collapse justify-content-between" id="navbarToggle" style="background-color: #1e1f1169;">
+    
+      <ul id="kp" class="navbar-nav" style="font-size: 1.5vw;margin-right: 30px;font-weight:bold;color:white !important;">
+        <li class="nav-item h4">
+        <a class="nav-link text-white " href="index.html">Home </a>
+        </li>
+        <li class="nav-item h4">
+        <a class="nav-link text-white" href="notes.html">Notes</a>
+        </li>
+        
+        <li class="nav-item h4">
+        <a class="nav-link text-white" href="complain.html">Complian</a>
+        </li>
+      </ul>
+      
+      
+    <!--   Show this only lg screens and up   -->
+      <a class="navbar-brand d-none d-lg-block" href="#" style="margin-right: -4rem !important; font-size:3.5vw;">G N D P C</a>
+      
+      
+      
+      <ul class="navbar-nav" style="font-size: 1.5vw;margin-right: 30px;font-weight:bold;">
+        <li class="nav-item h4">
+        <a class="nav-link text-white" href="track.html">Track Complian</a>
+        </li>
+        <li class="nav-item h4">
+        <a class="nav-link text-white" href="{% url 'admin' %}">Admin</a>
+        </li>
+        <li class="nav-item h4">
+        <a class="nav-link text-white" href="teach.html">Teacher</a>
+        </li>
+        <!-- <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+        </li> -->
+      </ul>
+      </div>
+    </nav>
+    <!--  -->
+
+<!--  -->
+<p class="p" > N O T E S <a href="{% url 'notes_register' %}"id="tooltipp"> <img src="static/images/not.svg" ><span class="tooltiptext">Add Notes</span></a> </p>
+<div class="kk" >
+  <p style="color: white;text-align:center;">{{error}}</p>
+  <p style="color: white;text-align:center;">{{message}}</p>
+  <ul class="w3-ul w3-card-4" >
+	{% for i in thislist %}	
+    <li class="w3-bar" >
+      <span  class="w3-bar-item w3-button w3-white w3-xlarge w3-right"><a href="{{i.13}}"><i class="fa fa-cloud-download-alt"></i></a></span>
+      <img src="static/images/ek.svg" class="w3-bar-item w3-circle w3-hide-small" >
+      <div class="w3-bar-item">
+      <span class="w3-large">Name: {{i.1}}</span><br>
+      <span>Date : 22-2-2018</span>
+
+      </div>
+    </li>
+	{% endfor %}
+    </ul>
+
+    
+    </div>
+</body>
+</html>

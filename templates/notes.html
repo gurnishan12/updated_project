@@ -1,0 +1,342 @@
+{% load static %}
+{% static "images" as baseUrl %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>GNDPC</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="GNDPC">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet" type="text/css"/>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet"> 
+<script type="text/javascript" src="style.js"></script>
+
+
+</head>
+<style type="text/css">
+		body{
+			background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(static/images/aaronn.jpg);
+/*			background-image:url(priscillad.jpg);*/
+			background-size: cover;
+			height: 100vh;
+			font-family: 'Indie Flower', cursive;
+		}
+              @media screen and (max-width: 600px) {
+      .navbar-brand{
+       font-size:7vw !important;
+       margin-top: 5px;
+      
+      }
+    }
+	
+  .p{
+position: relative;
+font-size: 3vw;
+color: #212529;
+text-align: center;
+margin-top: 70px;
+background-color: #ffffffab;
+border-radius: 10px;
+font-weight: 700;
+  }
+  /*kk*/
+ .kk h2 {
+  font-weight: bold;
+  font-size: 2vw;
+}
+.kk a{
+  font-family: 'Reenie Beanie';
+  font-size: 1.3vw;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+.kk ul,li{
+  list-style:none;
+}
+.kk ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #ffffff21;
+  border: 2px solid #4D774E;
+
+}
+.aaa,.aa{
+  text-decoration:none;
+  color:#000;
+  background:#ffc;
+  display:block;
+  height:18em;
+  width:17em;
+  padding:1em;
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  transform: rotate(-6deg);
+  transition: transform .15s linear;
+  border: 2px solid #4D774E;
+    border-radius: 10px;
+}
+
+.aa{
+  transform:rotate(4deg);
+  position:relative;
+  top:5px;
+  background:#cfc;
+}
+.kk ul li:nth-child(3n) .aa{
+  transform:rotate(-3deg);
+  position:relative;
+  top:-5px;
+  background:#ccf;
+}
+.kk ul li:nth-child(5n) .aa{
+  transform:rotate(5deg);
+  position:relative;
+  top:-10px;
+}
+
+#aa:hover,#aa:focus{
+  box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  transform: scale(1.25);
+  position:relative;
+  z-index:5;
+}
+
+.kk ul li{
+  margin:1em;
+}
+
+  @media screen and (max-width: 600px) {
+      .p {
+       font-size:10vw; 
+      
+      }
+    }
+      @media screen and (max-width: 600px) {
+      .kk ul {
+       margin-left: -35px; 
+      
+      }
+    }
+          @media screen and (max-width: 600px) {
+      .kk h2 {
+       font-size: 6vw;
+      
+      }
+    }
+              @media screen and (max-width: 600px) {
+      .kk a {
+       font-size: 5.3vw;
+      
+      }
+    }
+
+
+    @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)  {
+    .kk h2 {
+      font-size: 3vw;
+    }
+    }
+        @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)  {
+    .kk a {
+      font-size: 2.3vw;
+    }
+    }
+            @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)  {
+    .p {
+      font-size: 4vw;
+    }
+    }
+</style>
+<body>
+
+	<!--  -->
+<nav class="navbar navbar-expand-lg navbar-dark" >
+
+    <!--  Show this only on mobile to medium screens  -->
+      <a class="navbar-brand d-lg-none" href="#">G N D P C</a>
+    
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+    
+    <!--  Use flexbox utility classes to change how the child elements are justified  -->
+      <div class="collapse navbar-collapse justify-content-between" id="navbarToggle" style="background-color: #1e1f1169;">
+    
+      <ul id="kp" class="navbar-nav" style="font-size: 1.5vw;margin-right: 30px;font-weight:bold;color:white !important;">
+        <li class="nav-item h4">
+        <a class="nav-link text-white " href="index.html">Home </a>
+        </li>
+        <li class="nav-item h4">
+        <a class="nav-link text-white" href="notes.html">Notes</a>
+        </li>
+        
+        <li class="nav-item h4">
+        <a class="nav-link text-white" href="complain.html">Complian</a>
+        </li>
+      </ul>
+      
+      
+    <!--   Show this only lg screens and up   -->
+      <a class="navbar-brand d-none d-lg-block" href="#" style="margin-right: -4rem !important; font-size:3.5vw;">G N D P C</a>
+      
+      
+      
+      <ul class="navbar-nav" style="font-size: 1.5vw;margin-right: 30px;font-weight:bold;">
+        <li class="nav-item h4">
+        <a class="nav-link text-white" href="track.html">Track Complian</a>
+        </li>
+        <li class="nav-item h4">
+        <a class="nav-link text-white" href="{% url 'admin' %}">Admin</a>
+        </li>
+        <li class="nav-item h4">
+        <a class="nav-link text-white" href="teach.html">Teacher</a>
+        </li>
+        <!-- <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+        </li> -->
+      </ul>
+      </div>
+    </nav>
+		<!--  -->
+
+<p class="p"> N O T E S</p>
+
+<div class="kk" >
+ 
+  
+
+<ul>
+  <li>
+    <div class="aaa" id="aa">
+      <h2>Computer Science & Engg.</h2>
+       <a href="{% url 'notes_verify' %}?data=notesaddcse_sem1">⫸   1st Semester</a><br>
+       <a href="{% url 'notes_verify' %}?data=notesaddcse_sem2" style="margin-top: -16px;">⫸   2nd Semester</a><br>
+       <a href="{% url 'notes_verify' %}?data=notesaddcse_sem3" style="margin-top: -16px;">⫸   3nd Semester</a><br>
+       <a href="{% url 'notes_verify' %}?data=notesaddcse_sem4" style="margin-top: -16px;">⫸   4nd Semester</a><br>
+       <a href="{% url 'notes_verify' %}?data=notesaddcse_sem5" style="margin-top: -16px;">⫸   5nd Semester</a><br>
+       <a href="{% url 'notes_verify' %}?data=notesaddcse_sem6" style="margin-top: -16px;">⫸   6nd Semester</a><br>
+    </div>
+  </li>
+  <!--  -->
+  <li>
+    <div class="aa" id="aa">
+      <h2>Electrical Engg.</h2>
+       <a href="{% url 'notes_verify' %}?data=notesaddelectrical_sem1">⫸   1st Semester</a><br>
+       <a href="{% url 'notes_verify' %}?data=notesaddelectrical_sem2" style="margin-top: -16px;">⫸   2nd Semester</a><br>
+       <a href="{% url 'notes_verify' %}?data=notesaddelectrical_sem3" style="margin-top: -16px;">⫸   3nd Semester</a><br>
+       <a href="{% url 'notes_verify' %}?data=notesaddelectrical_sem4" style="margin-top: -16px;">⫸   4nd Semester</a><br>
+       <a href="{% url 'notes_verify' %}?data=notesaddelectrical_sem5" style="margin-top: -16px;">⫸   5nd Semester</a><br>
+       <a href="{% url 'notes_verify' %}?data=notesaddelectrical_sem6" style="margin-top: -16px;">⫸   6nd Semester</a><br>
+    </div>
+  </li>
+  <!--  -->
+  <li>
+    <div class="aa" id="aa">
+      <h2>Civil Engg.</h2>
+       <a href="{% url 'notes_verify' %}?data=notesaddcivil_sem1">⫸   1st Semester</a><br>
+       <a href="{% url 'notes_verify' %}?data=notesaddcivil_sem1" style="margin-top: -16px;">⫸   2nd Semester</a><br>
+       <a href="{% url 'notes_verify' %}?data=notesaddcivil_sem1" style="margin-top: -16px;">⫸   3nd Semester</a><br>
+       <a href="{% url 'notes_verify' %}?data=notesaddcivil_sem1" style="margin-top: -16px;">⫸   4nd Semester</a><br>
+       <a href="{% url 'notes_verify' %}?data=notesaddcivil_sem1" style="margin-top: -16px;">⫸   5nd Semester</a><br>
+       <a href="{% url 'notes_verify' %}?data=notesaddcivil_sem1" style="margin-top: -16px;">⫸   6nd Semester</a><br>
+    </div>
+  </li>
+  <!--  -->
+  <li>
+    <div class="aa" id="aa">
+      <h2>Mechanical Engg.</h2>
+       <a href="{% url 'notes_verify' %}?data=notesaddmechanical_sem1">⫸   1st Semester</a><br>
+       <a href="{% url 'notes_verify' %}?data=notesaddmechanical_sem1" style="margin-top: -16px;">⫸   2nd Semester</a><br>
+       <a href="{% url 'notes_verify' %}?data=notesaddmechanical_sem1" style="margin-top: -16px;">⫸   3nd Semester</a><br>
+       <a href="{% url 'notes_verify' %}?data=notesaddmechanical_sem1" style="margin-top: -16px;">⫸   4nd Semester</a><br>
+       <a href="{% url 'notes_verify' %}?data=notesaddmechanical_sem1" style="margin-top: -16px;">⫸   5nd Semester</a><br>
+       <a href="{% url 'notes_verify' %}?data=notesaddmechanical_sem1" style="margin-top: -16px;">⫸   6nd Semester</a><br>
+    </div>
+  </li>
+  <!--  -->
+  <li>
+    <div class="aaa" id="aa">
+      <h2>Elec. & Communication Engg.</h2>
+       <a href="{% url 'notes_verify' %}?data=notesaddece_sem1">⫸   1st Semester</a><br>
+       <a href="{% url 'notes_verify' %}?data=notesaddece_sem2" style="margin-top: -16px;">⫸   2nd Semester</a><br>
+       <a href="{% url 'notes_verify' %}?data=notesaddece_sem3" style="margin-top: -16px;">⫸   3nd Semester</a><br>
+       <a href="{% url 'notes_verify' %}?data=notesaddece_sem4" style="margin-top: -16px;">⫸   4nd Semester</a><br>
+       <a href="{% url 'notes_verify' %}?data=notesaddece_sem5" style="margin-top: -16px;">⫸   5nd Semester</a><br>
+       <a href="{% url 'notes_verify' %}?data=notesaddece_sem6" style="margin-top: -16px;">⫸   6nd Semester</a><br>
+    </div>
+  </li>
+  <!--  -->
+  <li>
+    <div class="aa" id="aa">
+      <h2>Automobile Engg.</h2>
+       <a href="{% url 'notes_verify' %}?data=notesaddauto_sem1">⫸   1st Semester</a><br>
+       <a href="{% url 'notes_verify' %}?data=notesaddauto_sem2" style="margin-top: -16px;">⫸   2nd Semester</a><br>
+       <a href="{% url 'notes_verify' %}?data=notesaddauto_sem3" style="margin-top: -16px;">⫸   3nd Semester</a><br>
+       <a href="{% url 'notes_verify' %}?data=notesaddauto_sem4" style="margin-top: -16px;">⫸   4nd Semester</a><br>
+       <a href="{% url 'notes_verify' %}?data=notesaddauto_sem5" style="margin-top: -16px;">⫸   5nd Semester</a><br>
+       <a href="{% url 'notes_verify' %}?data=notesaddauto_sem6" style="margin-top: -16px;">⫸   6nd Semester</a><br>
+    </div>
+  </li>
+  <!--  -->
+ 
+</ul>
+
+
+
+		</div> 
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

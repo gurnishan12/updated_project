@@ -1,0 +1,257 @@
+[
+  {
+    "model": "calc.Country",
+    "pk": 1,
+    "fields": {
+      "name": "cse1"
+      
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 2,
+    "fields": {
+      "name": "cse2"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 3,
+    "fields": {
+      "name": "cse3"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 4,
+    "fields": {
+      "name": "cse4"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 5,
+    "fields": {
+      "name": "cse5"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 6,
+    "fields": {
+      "name": "cse6"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 7,
+    "fields": {
+      "name": "ece1"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 8,
+    "fields": {
+      "name": "ece2"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 9,
+    "fields": {
+      "name": "ece3"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 10,
+    "fields": {
+      "name": "ece4"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 11,
+    "fields": {
+      "name": "ece5"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 12,
+    "fields": {
+      "name": "ece6"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 13,
+    "fields": {
+      "name": "civil1"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 14,
+    "fields": {
+      "name": "civil2"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 15,
+    "fields": {
+      "name": "civil3"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 16,
+    "fields": {
+      "name": "civil4"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 17,
+    "fields": {
+      "name": "civil5"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 18,
+    "fields": {
+      "name": "civil6"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 19,
+    "fields": {
+      "name": "auto1"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 20,
+    "fields": {
+      "name": "auto2"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 21,
+    "fields": {
+      "name": "auto3"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 22,
+    "fields": {
+      "name": "auto4"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 23,
+    "fields": {
+      "name": "auto5"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 24,
+    "fields": {
+      "name": "auto6"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 25,
+    "fields": {
+      "name": "mechanical1"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 26,
+    "fields": {
+      "name": "mechanical2"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 27,
+    "fields": {
+      "name": "mechanical3"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 28,
+    "fields": {
+      "name": "mechanical4"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 29,
+    "fields": {
+      "name": "mechanical5"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 30,
+    "fields": {
+      "name": "mechanical6"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 31,
+    "fields": {
+      "name": "electrical1"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 32,
+    "fields": {
+      "name": "electrical2"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 33,
+    "fields": {
+      "name": "electrical3"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 34,
+    "fields": {
+      "name": "electrical4"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 35,
+    "fields": {
+      "name": "electrical5"
+    }
+  },
+  {
+    "model": "calc.Country",
+    "pk": 36,
+    "fields": {
+      "name": "electrical6"
+    }
+  }
+
+
+]

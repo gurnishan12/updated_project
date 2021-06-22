@@ -1,0 +1,10 @@
+.tk{
+    background-color: white;
+height: 60%;
+width: 80%;
+position: fixed;
+margin-left: 10%;
+margin-top: 10%;
+border-radius: 50px;
+box-shadow: 10px 10px #ecc695;
+}

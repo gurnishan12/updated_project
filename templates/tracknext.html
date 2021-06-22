@@ -1,0 +1,254 @@
+{% load static %}
+{% static "images" as baseUrl %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>GNDPC</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="GNDPC">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet" type="text/css"/>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet"> 
+<script type="text/javascript" src="style.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<style type="text/css">
+    body{
+      background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('static/images/aaronn.jpg');
+/*      background-image:url(priscillad.jpg);*/
+      background-size: cover;
+      height: 100vh;
+      font-family: 'Indie Flower', cursive;
+    }
+              @media screen and (max-width: 600px) {
+      .navbar-brand{
+       font-size:7vw !important;
+       margin-top: 5px;
+      
+      }
+    }
+                  @media screen and (max-width: 600px) {
+      i{
+       margin-right: 134px !important;
+       margin-left: 128px !important;
+      
+      }
+    }
+
+      @media screen and (max-width: 600px) {
+      .kk ul{
+       margin-left: 22px !important;
+      
+      }
+    }
+   @media screen and (max-width: 600px) {
+      .p {
+       font-size:10vw !important; 
+      
+      }
+    }
+  .p{
+position: relative;
+font-size: 3vw;
+text-align: center;
+margin-top: 70px;
+background-color: #ffffffab;
+border-radius: 10px;
+  }
+  i{
+    margin-right: 200px;
+background-color: black;
+color: white;
+border: 1px solid whitesmoke;
+box-shadow: 1px 1px 9px 1px black;
+  }
+  /*kk*/
+.kk ul{
+  margin-left: 55px;
+  width: 90vw;
+  background-color: #ffffff36;
+color: black;
+}
+
+.w3-white,.w3-hover-white:hover {
+    color: #000 !important;
+    background-color:transparent !important;
+    border-radius: 25px;
+}
+i{
+  background-color: white;
+padding: 11px;
+border-radius: 30px;
+margin-bottom: 15px;
+margin-top: 16px;
+margin-left: 199px;
+margin-bottom: 16px;
+}
+.w3-green, .w3-hover-green:hover {
+    color: white;
+    background-color: #4D774E !important;
+}
+.w3-container{
+background-color: #DADED4;
+border: 2px solid #4D774E;
+border-radius: 70px;
+}
+</style>
+<body>
+
+  <!--  -->
+<nav class="navbar navbar-expand-lg navbar-dark" >
+
+    <!--  Show this only on mobile to medium screens  -->
+      <a class="navbar-brand d-lg-none" href="#">G N D P C</a>
+    
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+    
+    <!--  Use flexbox utility classes to change how the child elements are justified  -->
+      <div class="collapse navbar-collapse justify-content-between" id="navbarToggle" style="background-color: #1e1f1169;">
+    
+      <ul id="kp" class="navbar-nav" style="font-size: 1.5vw;margin-right: 30px;font-weight:bold;color:white !important;">
+        <li class="nav-item h4">
+        <a class="nav-link text-white " href="index.html">Home </a>
+        </li>
+        <li class="nav-item h4">
+        <a class="nav-link text-white" href="notes.html">Notes</a>
+        </li>
+        
+        <li class="nav-item h4">
+        <a class="nav-link text-white" href="complain.html">Complian</a>
+        </li>
+      </ul>
+      
+      
+    <!--   Show this only lg screens and up   -->
+      <a class="navbar-brand d-none d-lg-block" href="#" style="margin-right: -4rem !important; font-size:3.5vw;">G N D P C</a>
+      
+      
+      
+      <ul class="navbar-nav" style="font-size: 1.5vw;margin-right: 30px;font-weight:bold;">
+        <li class="nav-item h4">
+        <a class="nav-link text-white" href="track.html">Track Complian</a>
+        </li>
+        <li class="nav-item h4">
+        <a class="nav-link text-white" href="{% url 'admin' %}">Admin</a>
+        </li>
+        <li class="nav-item h4">
+        <a class="nav-link text-white" href="teach.html">Teacher</a>
+        </li>
+        <!-- <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+        </li> -->
+      </ul>
+      </div>
+    </nav>
+    <!--  -->
+
+<p class="p"> Track Complain</p>
+<div class="kk" style="display: grid;
+justify-items: center;">
+  
+<div class="w3-container">
+  <i class="fas fa-spinner" style="margin-right: 200px;background-color: black;color: white; border: 1px solid whitesmoke;"></i>
+
+<div class="w3-light-grey" style="margin-bottom: 35px;">
+  
+  <div id="myBar" class="w3-container w3-green w3-center" style="width:50%">50%</div>
+</div>
+<!-- <br>
+<button class="w3-button w3-green" onclick="move()">Click Me</button> 
+ -->
+</div>
+
+    
+    </div>
+    <script>
+function move() {
+  var elem = document.getElementById("myBar");   
+  var width = 50;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (width >= 100) {
+      clearInterval(id);
+    } else {
+      width++; 
+      elem.style.width = width + '%'; 
+      elem.innerHTML = width * 1  + '%';
+    }
+  }
+}
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <div class="container contact-form">
+            <div class="contact-image">
+                <img src="{% static 'images/ab.png' %}" alt="img"/ style="background-color: burlywood;">
+            </div> -->
+            <!-- <form class="fm" action = "" method = "POST" enctype="multipart/form-data">
+                    {% csrf_token %} -->
+<!--                     
+                <h3>Track 𝙲𝚘𝚖𝚙𝚕𝚊𝚒𝚗</h3>
+               <div > -->
+                  <!--  -->
+               <!-- progressbar -->
+			   
+				<!-- <img src="{% static 'images/start.png' %}" alt="img"/ style="background-color: #ffc107;">
+			   <div class="progress" style="box-shadow: 5px 5px 11px 5px;">
+				
+				{% if verified == 2  %} -->
+				<!-- this code is for verified one -->
+					<!-- <p>hello</p>
+					<div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+					<img src="{% static 'images/checked.png' %}" alt="img"/ style="margin-left:75%;background-color: #ffc107;">
+				{% elif verified == 1 %} -->
+				<!-- this code is for not verified -->
+					<!-- <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+					<img src="{% static 'images/checked.png' %}" alt="img"/ style="margin-left:75%;background-color: white;">
+				{% endif 	%}
+				{% if verified == 4 %}
+			    </div>
+					{{error}}
+                  
+			    </div>
+				{% endif 	%} -->
+            <!-- </form> -->
+        <!-- </div>
+		
+</body>
+
+</html> -->

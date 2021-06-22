@@ -1,0 +1,234 @@
+{% load static %}
+{% static "images" as baseUrl %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>GNDPC</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="GNDPC">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet" type="text/css"/>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="{% static 'js/style.js' %}"></script>
+ <link rel="shortcut icon" href="favicon.ico">
+  <script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()|| console.log("Please view this demo in a modern browser that supports CSS Variables.");</script>
+
+</head>
+<style type="text/css">
+	
+
+
+
+		body{
+			background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('static/images/greenh.jpg');
+/*			background-image:url(priscillad.jpg);*/
+			background-size: cover;
+			height: 100vh;
+			font-family: 'Indie Flower', cursive;
+		}
+		.output {
+  text-align:center;
+  font-family: 'Source Code Pro', monospace;
+  color:white;
+ }
+
+/* Cursor Styling */
+
+.cursor::after {
+  content:'';
+  display:inline-block;
+  margin-left:3px;
+  background-color:white;
+  animation-name:blink;
+  animation-duration:0.5s;
+  animation-iteration-count: infinite;
+}
+h1.cursor::after {
+  height:24px;
+  width:13px;
+}
+p.cursor::after {
+  height:13px;
+  width:6px;
+}
+
+@keyframes blink {
+  0% {
+    opacity:1;
+  }
+  49% {
+    opacity:1;
+  }
+  50% {
+    opacity:0;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+
+h1{
+	font-family: 'Indie Flower', cursive;
+}
+
+
+	@media screen and (max-width: 600px) {
+		  .container {
+			 margin-left: 0 !important; 
+			
+		  }
+		}
+			@media screen and (max-width: 600px) {
+		  .bo {
+			 margin-top: 650px !important;
+			
+		  }
+		}
+					@media screen and (max-width: 600px) {
+		  h1 {
+			 font-size:7vw !important;
+			
+		  }
+		}
+					@media screen and (max-width: 600px) {
+		  .navbar-brand{
+			 font-size:7vw !important;
+			 margin-top: 5px;
+			
+		  }
+		}
+@media screen and (max-width: 600px) {
+		  .container{
+margin-top: 195px !important;
+			
+		  }
+		}
+
+		
+			@media screen and (max-width: 600px) {
+		  .center {
+			 
+			font-size: 10vw !important;
+			margin-top: 195px !important;
+			line-height: 45px !important; 
+			
+		  }
+		}
+
+	  @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)  {
+		.center {
+		  font-size: 5vw !important;
+		  margin-top: 320px !important;
+		}
+	  }
+
+
+	  @media screen and (max-width: 600px) {
+		.center h2{
+			font-size: 5vw !important;
+			line-height: 40px !important;
+			font-weight: bold !important;
+		}
+	  }
+	  @media screen 
+	  and (device-width: 360px) 
+	  and (device-height: 640px)  {
+		.navbar-collapse{
+            font-size: 4.5vw !important;
+	  }
+	}
+
+	@media only screen 
+	and (min-device-width: 768px) 
+	and (max-device-width: 1024px)  {
+		  .kp{
+			
+			margin-top: 240px !important;
+		  }
+		}
+
+		
+</style>
+<body>
+
+	<!--  -->
+<nav class="navbar navbar-expand-lg navbar-dark" >
+
+		<!--  Show this only on mobile to medium screens  -->
+		  <a class="navbar-brand d-lg-none" href="#">G N D P C</a>
+		
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		
+		<!--  Use flexbox utility classes to change how the child elements are justified  -->
+		  <div class="collapse navbar-collapse justify-content-between" id="navbarToggle" >
+		
+			<ul id="kp" class="navbar-nav" style="font-size: 1.5vw;margin-right: 30px;font-weight:bold;color:white !important; ">
+			  <li class="nav-item h4">
+				<a class="nav-link text-white " href="{% url 'index' %}">Home </a>
+			  </li>
+			  <li class="nav-item h4">
+				<a class="nav-link text-white" href="{% url 'notes' %}">Notes</a>
+			  </li>
+			  
+			  <li class="nav-item h4">
+				<a class="nav-link text-white" href="{% url 'complain_register' %}">Complian</a>
+			  </li>
+			</ul>
+			
+			
+		<!--   Show this only lg screens and up   -->
+			<a class="navbar-brand d-none d-lg-block" href="#" style="margin-right: -4rem !important; font-size:3.5vw;">G N D P C</a>
+			
+			
+			
+			<ul class="navbar-nav" style="font-size: 1.5vw;margin-right: 30px;font-weight:bold;">
+			  <li class="nav-item h4">
+				<a class="nav-link text-white" href="{% url 'track' %}">Track Complian</a>
+			  </li>
+			  <li class="nav-item h4">
+				<a class="nav-link text-white" href="{% url 'login_admin' %}">Admin</a>
+			  </li>
+			  <li class="nav-item h4">
+				<a class="nav-link text-white" href="{% url 'loginCC' %}">Teacher</a>
+			  </li>
+			  <!-- <li class="nav-item">
+				<a class="nav-link" href="#">Link</a>
+			  </li> -->
+			</ul>
+		  </div>
+		</nav>
+		<!--  -->
+
+
+
+<div class="container py-5" style="margin-top: 145px;margin-left: 110px;font-family: 'Indie Flower', cursive;position: absolute;">
+  <div class="output" id="output">
+    <h1 class="cursor"></h1>
+    <p></p>
+  </div>
+</div>
+
+
+		<div style="position: relative;
+		text-align: center;
+		color: white;
+		margin-top: 410px;
+		padding-left: 36%;
+		padding-right: 37%;" class="bo">
+            <img src="static/images/ab.png" style="height: 80px;" class="kp"><br>
+		<a href="{% url 'about_us' %}" style="color:white;text-decoration: none;"><h5 style="cursor: pointer;">	A B O U T <br> U S</h5></a>
+		</div>
+</body>
+</html>

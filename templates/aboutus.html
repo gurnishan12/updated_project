@@ -1,0 +1,137 @@
+{% load static %}
+{% static "images" as baseUrl %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>GNDPC</title>
+	<link rel="icon" href="{% static 'images/kp.png' %}" type="image/icon type">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="GNDPC">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="{% static 'styles/bootstrap4/bootstrap.min.css' %}">
+	<link href="{% static 'plugins/font-awesome-4.7.0/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="{% static 'styles/home.css' %}">
+	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<style>
+
+	@media screen and (max-width: 600px) {
+		  .center {
+			 
+			font-size: 10vw;
+			margin-top: 195px;
+			line-height: 45px !important; 
+			
+		  }
+		}
+	  @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)  {
+		.center {
+		  font-size: 5vw;
+		  margin-top: 320px;
+		}
+	  }
+
+
+	  <!--  -->
+	  @media screen and (max-width: 600px) {
+		.center h2{
+			font-size: 5vw;
+			line-height: 40px;
+			font-weight: bold;
+		}
+	  }
+	  @media screen 
+	  and (device-width: 360px) 
+	  and (device-height: 640px)  {
+		.navbar-collapse{
+            font-size: 4.5vw !important;
+	  }
+	}
+
+	@media only screen 
+	and (min-device-width: 768px) 
+	and (max-device-width: 1024px)  {
+		  .kp{
+			margin-top: 240px;
+		  }
+		}
+
+
+   .v1 img{
+	height: 75vh;
+	border: 3px solid #d2cfcf;
+	position: sticky;
+	border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+	width: 100%;
+   }
+
+</style>
+<body>
+
+	<img src="static/images/mn.jpg" id="myVideo">
+
+	  <nav class="navbar navbar-expand-lg navbar-dark" style="margin-top: 16px;">
+
+		<!--  Show this only on mobile to medium screens  -->
+		  <a class="navbar-brand d-lg-none" href="#">ＧＮＤＰＣ</a>
+		
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		
+		<!--  Use flexbox utility classes to change how the child elements are justified  -->
+		  <div class="collapse navbar-collapse justify-content-between" id="navbarToggle">
+		
+			<ul id="kp" class="navbar-nav" style="font-size: 1.5vw;font-weight:bold;color:white !important;">
+			  <li class="nav-item h5">
+				<a class="nav-link text-white " href="{% url 'index' %}">Home </a>
+			  </li>
+			  <li class="nav-item h5">
+				<a class="nav-link text-white" href="#">Notes</a>
+			  </li>
+			  <li class="nav-item h5">
+				<a class="nav-link text-white" href="{% url 'complain_register' %}">Complian</a>
+			  </li>
+			</ul>
+			
+			
+		<!--   Show this only lg screens and up   -->
+			<a class="navbar-brand d-none d-lg-block" href="#" style="margin-right: 2rem !important; font-size:2vw;">ＧＮＤＰＣ</a>
+			
+			
+			
+			<ul class="navbar-nav" style="font-size: 1.5vw;font-weight:bold;">
+			  <li class="nav-item h5">
+				<a class="nav-link text-white" href="#">Track Complian</a>
+			  </li>
+			  <li class="nav-item h5">
+				<a class="nav-link text-white" href="#">Login</a>
+			  </li>
+			  <!-- <li class="nav-item">
+				<a class="nav-link" href="#">Link</a>
+			  </li> -->
+			</ul>
+		  </div>
+		</nav>
+		<!--  -->
+ 
+		<div class="v1">
+           <img src="static/images/pen.jpg" >
+		   </div>
+
+		<!--  -->
+		
+</body>
+
+</html>
